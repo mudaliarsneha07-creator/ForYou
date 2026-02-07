@@ -81,8 +81,9 @@ form.addEventListener("submit", e => {
 
   if ((user === "endravesh" || user === "endra") && pass === "143") {
     alert("🐼 Login Successful! Welcome Endravesh!");
-    window.location.href = "../main.html";
+    window.location.href = "./main.html";
   } else {
     alert("❌ Invalid credentials");
   }
 }); 
+
